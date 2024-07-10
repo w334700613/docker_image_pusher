@@ -1,7 +1,8 @@
+# 应用
 talebook/talebook:latest
+ghcr.io/cxfksword/douban-api-rs:latest
 b3log/siyuan:latest
 filebrowser/filebrowser:s6
-plugins/docker:latest
 yidadaa/chatgpt-next-web:latest
 jeessy/ddns-go:latest
 photoprism/photoprism:latest
@@ -9,13 +10,16 @@ p3terx/ariang:latest
 nyanmisaka/jellyfin:latest
 xhofe/alist:latest
 deluan/navidrome:latest
+p3terx/aria2-pro:latest
+bytemark/webdav:latest
+portainer/portainer-ce:latest
+
+# 开发环境
+drone/drone:latest
+plugins/docker:latest
 maven:3.8.8
 drone/drone-runner-docker:latest
-portainer/portainer-ce:latest
-drone/drone:latest
-mariadb:10.11
 drone/git:latest
-p3terx/aria2-pro:latest
+mariadb:10.11
 openjdk:8u342-jdk
 openjdk:17-ea-oracle
-bytemark/webdav:latest
