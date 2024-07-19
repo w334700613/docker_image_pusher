@@ -13,7 +13,7 @@ deluan/navidrome:latest
 p3terx/aria2-pro:latest
 bytemark/webdav:latest
 portainer/portainer-ce:latest
-kuklinistvan/anki-sync-server:latest
+xiaoyaliu/alist:hostmode
 
 # 开发环境
 drone/drone:latest
