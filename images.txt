@@ -14,6 +14,7 @@ p3terx/aria2-pro:latest
 bytemark/webdav:latest
 portainer/portainer-ce:latest
 xiaoyaliu/alist:hostmode
+stirlingtools/stirling-pdf:latest
 
 # 开发环境
 drone/drone:latest
