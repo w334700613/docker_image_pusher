@@ -1,1 +1,2 @@
 johngong/anki-sync-server
+b3log/siyuan:latest
