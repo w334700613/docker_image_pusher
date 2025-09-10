@@ -1,2 +1,1 @@
-johngong/anki-sync-server
-b3log/siyuan:latest
+tomcat:8-jre8-alpine
