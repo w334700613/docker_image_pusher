@@ -1,1 +1,2 @@
-tomcat:8-jre8-alpine
+debian:trixie
+debian:bookworm
