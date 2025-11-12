@@ -1,7 +1,7 @@
 portainer/portainer-ce:latest
 bytemark/webdav:latest
 jeessy/ddns-go:latest
-filebrowser/filebrowser:s6
+filebrowser/filebrowser:latest
 p3terx/ariang:latest
 p3terx/aria2-pro:latest
 nyanmisaka/jellyfin:latest
