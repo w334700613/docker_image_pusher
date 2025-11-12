@@ -1,1 +1,13 @@
+portainer/portainer-ce:latest
+bytemark/webdav:latest
+jeessy/ddns-go:latest
+filebrowser/filebrowser:s6
+p3terx/ariang:latest
+p3terx/aria2-pro:latest
+nyanmisaka/jellyfin:latest
+yidadaa/chatgpt-next-web:latest
+
+mariadb:10.11
+openjdk:8u342-jdk
 debian:bullseye
+debian:trixie
