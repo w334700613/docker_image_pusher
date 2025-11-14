@@ -9,5 +9,4 @@ yidadaa/chatgpt-next-web:latest
 
 mariadb:10.11
 openjdk:8u342-jdk
-debian:bullseye
-debian:trixie
+debian:bookworm
