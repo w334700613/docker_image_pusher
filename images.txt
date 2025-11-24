@@ -7,7 +7,7 @@ p3terx/ariang:latest
 p3terx/aria2-pro:latest
 nyanmisaka/jellyfin:latest
 alist666/alist:latest
-
+b3log/siyuan:latest
 mariadb:10.11
 openjdk:8u342-jdk
 debian:bookworm
