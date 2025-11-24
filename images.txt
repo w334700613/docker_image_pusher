@@ -1,11 +1,11 @@
-portainer/portainer-ce:latest
+portainer/portainer-ce:lts
 bytemark/webdav:latest
 jeessy/ddns-go:latest
 filebrowser/filebrowser:latest
 p3terx/ariang:latest
 p3terx/aria2-pro:latest
 nyanmisaka/jellyfin:latest
-yidadaa/chatgpt-next-web:latest
+alist666/alist:latest
 
 mariadb:10.11
 openjdk:8u342-jdk
