@@ -1,4 +1,5 @@
 portainer/portainer-ce:lts
+portainer/portainer-ce:2.20.2
 bytemark/webdav:latest
 jeessy/ddns-go:latest
 filebrowser/filebrowser:latest
