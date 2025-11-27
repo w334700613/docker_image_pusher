@@ -1,3 +1,4 @@
+redis:3.2.12
 portainer/portainer-ce:lts
 portainer/portainer-ce:2.20.2
 bytemark/webdav:latest
