@@ -1,7 +1,6 @@
 xiaoyaliu/alist:latest
 xiaoyaliu/alist:hostmode
 redis:3.2.12
-portainer/portainer-ce:lts
 portainer/portainer-ce:2.20.2
 bytemark/webdav:latest
 jeessy/ddns-go:latest
@@ -9,8 +8,8 @@ filebrowser/filebrowser:latest
 p3terx/ariang:latest
 p3terx/aria2-pro:latest
 nyanmisaka/jellyfin:latest
-alist666/alist:latest
 b3log/siyuan:latest
 mariadb:10.11
 openjdk:8u342-jdk
 debian:bookworm
+debian:trixie
