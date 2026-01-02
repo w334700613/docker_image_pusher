@@ -1,4 +1,4 @@
-enmotech/opengauss:6.0.2
+opengauss/opengauss-server:latest
 xhofe/alist:latest
 redis:3.2.12
 portainer/portainer-ce:2.20.2
