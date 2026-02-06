@@ -1,3 +1,4 @@
+plugins/docker:latest
 b3log/siyuan:latest
 opengauss/opengauss-server:latest
 xhofe/alist:latest
