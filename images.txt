@@ -1,4 +1,3 @@
-codercom/code-server:latest
 b3log/siyuan:latest
 opengauss/opengauss-server:latest
 xhofe/alist:latest
@@ -14,3 +13,4 @@ portainer/portainer-ce:2.20.2
 mariadb:10.11
 openjdk:8u342-jdk
 debian:trixie
+maven:3.8.8
