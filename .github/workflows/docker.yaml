@@ -30,11 +30,7 @@ jobs:
         
         # 清理 Docker
         docker system prune -af || true
-        
-        # 清理构建缓存
-        rm -rf ~/.cache/*
-        rm -rf /tmp/*
-        
+
         echo "=== After Cleanup ==="
         df -h
     # 增加可用磁盘空间
