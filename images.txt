@@ -14,5 +14,6 @@ redis:3.2.12
 portainer/portainer-ce:2.20.2
 mariadb:10.11
 openjdk:8u342-jdk
+openjdk:17-ea-oracle
 debian:trixie
 maven:3.8.8
