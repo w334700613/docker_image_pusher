@@ -18,22 +18,25 @@ jobs:
     name: Pull
     runs-on: ubuntu-latest
     steps:
-    - name: Before freeing up disk space
+    # 🔥 第一步：清理磁盘
+    - name: Free disk space
       run: |
-        echo "Before freeing up disk space"
-        echo "=============================================================================="
-        df -hT
-        echo "=============================================================================="
-    - name: Free Disk Space (Ubuntu)
-      uses: jlumbroso/free-disk-space@main
-      with:
-        tool-cache: true        # 移除工具缓存
-        android: true           # 移除 Android SDK
-        dotnet: true            # 移除 .NET SDK
-        haskell: true           # 移除 Haskell
-        large-packages: true    # 移除大安装包
-        docker-images: true     # 移除 Docker 镜像
-        swap-storage: true      # 移除交换文件
+        echo "=== Before Cleanup ==="
+        df -h
+        
+        # 清理 Runner 日志
+        rm -rf /home/runner/actions-runner/_diag/*
+        rm -rf /home/runner/actions-runner/cached/_diag/*
+        
+        # 清理 Docker
+        docker system prune -af || true
+        
+        # 清理构建缓存
+        rm -rf ~/.cache/*
+        rm -rf /tmp/*
+        
+        echo "=== After Cleanup ==="
+        df -h
     # 增加可用磁盘空间
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
