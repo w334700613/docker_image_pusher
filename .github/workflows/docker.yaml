@@ -24,7 +24,16 @@ jobs:
         echo "=============================================================================="
         df -hT
         echo "=============================================================================="
-
+    - name: Free Disk Space (Ubuntu)
+      uses: jlumbroso/free-disk-space@main
+      with:
+        tool-cache: true        # 移除工具缓存
+        android: true           # 移除 Android SDK
+        dotnet: true            # 移除 .NET SDK
+        haskell: true           # 移除 Haskell
+        large-packages: true    # 移除大安装包
+        docker-images: true     # 移除 Docker 镜像
+        swap-storage: true      # 移除交换文件
     # 增加可用磁盘空间
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
